@@ -1,0 +1,10 @@
+{
+  "name": "Modulus-Depends",
+  "version": "0.1.0",
+  "description": "A simple example of the minimal code required to build an simple HTML5 game.",
+  "author": "Modulus <support@onmodulus.com>",
+  "dependencies": {
+    "express": "2.5.x"
+  },
+  "engine": "node 0.8.x"
+}

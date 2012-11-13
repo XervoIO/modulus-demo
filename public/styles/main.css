@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+iframe {
+  margin: 20px auto;
+  overflow: hidden;
+  border: 2px solid #000;
+}
