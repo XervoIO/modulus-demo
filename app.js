@@ -1,5 +1,5 @@
 var express = require('express');
-var app = express.createServer();
+var app = express();
 
 //Create a static file server
 app.configure(function() {
@@ -9,5 +9,6 @@ app.configure(function() {
 //Get the dummy data
 require('./server/ddata.js');
 
-app.listen(8080);
-console.log('Express server started on port %s', app.address().port);
+var port = 8080;
+app.listen(port);
+console.log('Express server started on port %s', port);
